@@ -232,7 +232,7 @@
         <div class="story-nav mb-20 max-w-4xl">
           <p class="!text-xl md:!text-2xl !leading-relaxed story-text">
             <span class="story-line story-line-1"><span class="char-fade-1">一</span><span class="char-fade-2">个</span><span class="char-fade-3">不</span><span class="char-fade-4">起</span><span class="char-fade-5">眼</span><span class="char-fade-6">的</span><span class="char-fade-7">仓</span><span class="char-fade-8">库</span><span class="char-fade-9">里</span><span class="char-fade-10">，</span><span class="char-fade-10">龙</span><span class="char-fade-11">虾</span><span class="story-keyword story-born" @click="navigateTo('/cn/adopt/intro')" @mouseenter="hoveredKeyword = 'born'" @mouseleave="hoveredKeyword = ''"><span class="char-fade-12">诞</span><span class="char-fade-13">生</span></span><span class="char-fade-14">了</span><span class="char-fade-15">。</span></span><br>
-            <span class="story-line story-line-2"><span class="story-keyword story-pick" @click="navigateTo('/cn/adopt/lobster-review')" @mouseenter="hoveredKeyword = 'pick'" @mouseleave="hoveredKeyword = ''"><span class="char-fade-5">选</span><span class="char-fade-6">一</span><span class="char-fade-7">只</span></span><span class="char-fade-8">，</span><span class="char-fade-9">送</span><span class="char-fade-10">它</span><span class="char-fade-11">上</span><span class="story-keyword story-school" @click="navigateTo('/cn/university/')" @mouseenter="hoveredKeyword = 'school'" @mouseleave="hoveredKeyword = ''"><span class="char-fade-12">学</span><span class="char-fade-13">堂</span></span><span class="char-fade-14">；</span><span class="school-cta" @click="navigateTo('/cn/university/')" @mouseenter="hoveredKeyword = 'school'" @mouseleave="hoveredKeyword = ''"><span class="school-cta-arrow">←</span><span>试试龙虾大学吧！</span></span></span><br>
+            <span class="story-line story-line-2"><span class="story-keyword story-pick" @click="navigateTo('/cn/adopt/lobster-review')" @mouseenter="hoveredKeyword = 'pick'" @mouseleave="hoveredKeyword = ''"><span class="char-fade-5">选</span><span class="char-fade-6">一</span><span class="char-fade-7">只</span></span><span class="char-fade-8">，</span><span class="char-fade-9">送</span><span class="char-fade-10">它</span><span class="char-fade-11">上</span><span class="story-keyword story-school" @click="navigateTo('/cn/university/intro.html')" @mouseenter="hoveredKeyword = 'school'" @mouseleave="hoveredKeyword = ''"><span class="char-fade-12">学</span><span class="char-fade-13">堂</span></span><span class="char-fade-14">；</span><span class="school-cta" @click="navigateTo('/cn/university/intro.html')" @mouseenter="hoveredKeyword = 'school'" @mouseleave="hoveredKeyword = ''"><span class="school-cta-arrow">←</span><span>试试龙虾大学吧！</span></span></span><br>
             <span class="story-line story-line-3"><span class="char-fade-3">或</span><span class="char-fade-4">动</span><span class="char-fade-5">手</span><span class="char-fade-6">写</span><span class="char-fade-7">一</span><span class="char-fade-8">只</span><span class="story-keyword story-undefined" @click="navigateTo('/cn/build/')" @mouseenter="hoveredKeyword = 'undefined'" @mouseleave="hoveredKeyword = ''"><span class="char-fade-9">不</span><span class="char-fade-10">被</span><span class="char-fade-11">定</span><span class="char-fade-12">义</span></span><span class="char-fade-13">的</span><span class="char-fade-14">龙</span><span class="char-fade-15">虾</span><span class="char-fade-16">。</span></span><br>
             <span class="story-line story-line-4" @mouseenter="startDreamParty" @mouseleave="stopDreamParty"><span class="char-fade-13">它</span><span class="char-fade-13">的</span><span class="char-fade-14">梦</span><span class="char-fade-15">想</span><span class="char-fade-16">，</span><span class="char-fade-17">从</span><span class="char-fade-18">第</span><span class="char-fade-18">一</span><span class="char-fade-19">天</span><span class="char-fade-19">起</span><span class="char-fade-20">就</span><span class="char-fade-20">很</span><span class="char-fade-20">大</span><span class="char-fade-20">:</span><span class="char-fade-20">)</span></span>
           </p>
@@ -480,7 +480,7 @@
             <a :href="withBase('/cn/adopt/intro')" @click.prevent="navigateTo('/cn/adopt/intro')" class="w-full sm:w-auto group flex items-center justify-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 text-white font-bold rounded-full py-3 px-7 transition-all duration-300 hover:scale-105 active:scale-95">
               领养龙虾 <span class="text-[#ff4d4d] group-hover:text-[#ff6b6b] transition-colors">→</span>
             </a>
-            <a :href="withBase('/cn/university/intro')" @click.prevent="navigateTo('/cn/university/intro')" class="w-full sm:w-auto group flex items-center justify-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 text-white font-bold rounded-full py-3 px-7 transition-all duration-300 hover:scale-105 active:scale-95">
+            <a :href="withBase('/cn/university/intro.html')" @click.prevent="navigateTo('/cn/university/intro.html')" class="w-full sm:w-auto group flex items-center justify-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 text-white font-bold rounded-full py-3 px-7 transition-all duration-300 hover:scale-105 active:scale-95">
               龙虾大学 <span class="text-[#ff4d4d] group-hover:text-[#ff6b6b] transition-colors">→</span>
             </a>
             <a :href="withBase('/cn/build/')" @click.prevent="navigateTo('/cn/build/')" class="w-full sm:w-auto group flex items-center justify-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 text-white font-bold rounded-full py-3 px-7 transition-all duration-300 hover:scale-105 active:scale-95">
@@ -728,13 +728,7 @@ const isHome = computed(() => {
          path === '/hello-claw/' || path === '/hello-claw/index.html'
 })
 const isLobsterUniversity = computed(() => {
-  const path = route.path
-  return path === '/cn/university/' ||
-    path === '/cn/university/index.html' ||
-    path === '/cn/university' ||
-    path === '/hello-claw/cn/university/' ||
-    path === '/hello-claw/cn/university/index.html' ||
-    path === '/hello-claw/cn/university'
+  return false
 })
 
 const isHovered = ref(false)
@@ -796,7 +790,7 @@ const baseRecommendedSections = [
   { track: '领养龙虾', title: '第 1 章：十分钟上手 OpenClaw', summary: '一键安装、配置模型、常用命令与 Coding Plan 模式。', link: '/cn/adopt/chapter1' },
   { track: '领养龙虾', title: '第 3 章：移动端接入', summary: '把龙虾接到 Telegram / 飞书 / QQ，随时随地发一句话就能办事。', link: '/cn/adopt/chapter3' },
   { track: '领养龙虾', title: '第 4 章：自动化任务入门', summary: '定时提醒、自动化报告、周期性工作流，从“会聊”到“会做”。', link: '/cn/adopt/chapter4' },
-  { track: '龙虾大学', title: '龙虾大学：Skills 选修地图', summary: '菜单式挑选 skills，先装最常用的 5~10 个，让龙虾更强且不过载。', link: '/cn/university/' },
+  { track: '龙虾大学', title: '龙虾大学：Skills 选修地图', summary: '菜单式挑选 skills，先装最常用的 5~10 个，让龙虾更强且不过载。', link: '/cn/university/intro.html' },
   { track: '领养龙虾', title: '第 5 章：Skills 技能系统', summary: '理解技能层次、安装市场技能、开发自定义技能并调试。', link: '/cn/adopt/chapter5' },
   { track: '领养龙虾', title: '第 7 章：生产环境部署', summary: 'VPS/Docker/24×7 运行、隔离与常见部署排障要点。', link: '/cn/adopt/chapter7' },
   { track: '构建龙虾', title: '第 1 章：核心定位与设计理念', summary: 'Agent Runtime vs Chatbot，四个原语工具的设计哲学。', link: '/cn/build/chapter1' },
@@ -820,7 +814,7 @@ const recommendedSections = ref(shuffle(baseRecommendedSections))
 const tickerItems = computed(() => [...recommendedSections.value, ...recommendedSections.value])
 
 const lobsterUniversityRecommendedSections = [
-  { track: '龙虾大学', title: 'Skills 选修地图', summary: '从 ClawHub 到清单，按场景选 5~10 个技能的最短路径。', link: '/cn/university/' },
+  { track: '龙虾大学', title: 'Skills 选修地图', summary: '从 ClawHub 到清单，按场景选 5~10 个技能的最短路径。', link: '/cn/university/intro.html' },
   { track: '龙虾大学', title: 'Vibe Coding 实战', summary: '对话驱动需求到 PR，全流程“对话即开发”。', link: '/cn/university/vibe-coding/' },
   { track: '龙虾大学', title: '邮箱助手实战（163）', summary: '从 IMAP/SMTP 配置到脚本验证与 cron 定时，跑通邮件自动化。', link: '/cn/university/email-assistant/' },
   { track: '龙虾大学', title: '多智能体协作（HiClaw）', summary: '从单 Worker 瓶颈到多智能体协作，落地可追踪的任务编排。', link: '/cn/university/multi-claw-hiclaw/' },
@@ -859,7 +853,7 @@ const lobsterUniversityCollections = [
 const quickLinks = [
   { icon: '🦞', text: '领养：写在开头', link: '/cn/adopt/intro' },
   { icon: '⚡', text: '领养：快速上手', link: '/cn/adopt/chapter1' },
-  { icon: '🎓', text: '龙虾大学', link: '/cn/university/' },
+  { icon: '🎓', text: '龙虾大学', link: '/cn/university/intro.html' },
   { icon: '📱', text: '领养：移动端接入', link: '/cn/adopt/chapter3' },
   { icon: '🛠️', text: '构建：写在开头', link: '/cn/build/' },
   { icon: '📚', text: '附录：社区之声', link: '/cn/appendix/appendix-b' },
